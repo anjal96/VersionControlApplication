@@ -11,10 +11,7 @@ namespace Triangle
             //declaring variables
             int input, side1, side2, side3;
 
-            String triangle;
-
-            
-                
+            String triangle;         
             //menu for triangle 
 
             Console.WriteLine("list the functions of menu \n");
@@ -44,12 +41,8 @@ namespace Triangle
                         //calling method to the class functions
 
                         triangle = TriangleSolver.Analyze(side1, side2, side3);
-                        Console.WriteLine(triangle);
-
-                        //Check whether a triangle is Equilateral, Isosceles or Scalene
-                       
+                        Console.WriteLine(triangle);                       
                         break;
-
                     case 2:
                         Environment.Exit(1);
                         break;
