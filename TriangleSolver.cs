@@ -14,10 +14,9 @@ namespace Triangle
             if ((side1 + side2 > side3) && (side1 + side3 > side2) && (side2 + side3 > side1))
             {       
                 validate = "the triangle can be form";
+                
                 //Check whether a triangle is Equilateral, Isosceles or Scalene
-                if (CheckTriangle(side1, side2, side3) == 1)
-                {
-                    Console.WriteLine("Triangle can be form \n");
+                    
                     if (side1 == side2 && side2 == side3)
                     {
                         Console.Write("This is an equilateral triangle.\n");
